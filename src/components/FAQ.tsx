@@ -10,15 +10,15 @@ const FAQ = () => {
   const faqs = [
     {
       question: "Who can participate in SSEC CTF 2025?",
-      answer: "The competition is open to all college and university students from any department including CSE, IT, Cyber Security, AI/ML, AIDS, EEE, and ECE. You don't need prior hacking experience - we welcome beginners!"
+      answer: "The competition is open to cybersecurity professionals, students, researchers, and enthusiasts from all backgrounds. You don't need extensive experience - we welcome participants at all skill levels!"
     },
     {
       question: "What is the team size requirement?",
-      answer: "Teams must have 2-4 members. All team members must be from the same college and have valid student IDs. Individual participation is not allowed."
+      answer: "Teams must have 2-4 members. All team members should have valid identification. Individual participation is not allowed - collaboration is key to success in cybersecurity."
     },
     {
       question: "What should I bring to the competition?",
-      answer: "Bring your own laptop/device, chargers, valid college ID, and any personal tools you prefer. We'll provide internet access, power outlets, and refreshments."
+      answer: "Bring your own laptop/device, chargers, valid identification, and any cybersecurity tools you prefer. We'll provide high-speed internet, power outlets, and refreshments throughout the day."
     },
     {
       question: "Do I need cybersecurity experience to participate?",

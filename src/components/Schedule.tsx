@@ -91,13 +91,13 @@ const Schedule = () => {
                 <div key={index} className="relative flex items-start group">
                   {/* Timeline dot */}
                   <div className="relative z-10 flex-shrink-0">
-                    <div className="w-16 h-16 rounded-full card-cyber flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                    <div className="w-16 h-16 rounded-full card-cyber flex items-center justify-center group-hover:scale-105 transition-transform duration-200">
                       <item.icon className="w-6 h-6 text-primary" />
                     </div>
                   </div>
                   
                   {/* Content */}
-                  <div className={`ml-8 flex-1 card-cyber p-6 rounded-xl ${getItemStyle(item.type)} group-hover:scale-[1.02] transition-all duration-300`}>
+                  <div className={`ml-8 flex-1 card-cyber p-6 rounded-xl ${getItemStyle(item.type)} group-hover:scale-[1.01] transition-all duration-200`}>
                     <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-3">
                       <h3 className="text-xl font-orbitron font-semibold text-primary">
                         {item.title}

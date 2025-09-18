@@ -36,8 +36,8 @@ const About = () => {
               About The <span className="text-primary">Event</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Welcome to SSEC CTF 2025 — the ultimate inter-college cybersecurity championship 
-              that brings together the brightest minds from across the region.
+              Welcome to SSEC CTF 2025 — an elite cybersecurity competition 
+              that brings together talented professionals and students from across the region.
             </p>
           </div>
 
@@ -46,23 +46,23 @@ const About = () => {
             {/* Text Content */}
             <div className="space-y-6">
               <h3 className="text-2xl font-orbitron font-semibold text-primary mb-4">
-                The Ultimate Cyber Challenge
+                Professional Cybersecurity Challenge
               </h3>
               <p className="text-lg text-foreground leading-relaxed">
                 This isn't just another CTF — it's a <span className="text-primary font-semibold">
-                prestigious inter-college championship</span> designed to identify and celebrate 
-                the next generation of cybersecurity professionals.
+                prestigious cybersecurity competition</span> designed to identify and celebrate 
+                the next generation of security professionals and industry experts.
               </p>
               <p className="text-lg text-foreground leading-relaxed">
-                Open to students from <span className="text-accent font-semibold">
-                all departments</span> including CSE, IT, Cyber Security, AI/ML, AIDS, EEE, and ECE. 
-                Whether you're a seasoned hacker or just beginning your cybersecurity journey, 
-                this event welcomes all skill levels.
+                Open to <span className="text-accent font-semibold">cybersecurity professionals, 
+                students, and enthusiasts</span> of all backgrounds. Whether you're an experienced 
+                security expert or just beginning your cybersecurity journey, this event welcomes 
+                participants at every skill level.
               </p>
               <p className="text-lg text-foreground leading-relaxed">
                 Compete in our state-of-the-art <span className="text-primary font-semibold">
-                CC2 Lab</span> and immerse yourself in real-world scenarios that mirror 
-                actual cybersecurity challenges faced by organizations worldwide.
+                facilities</span> and tackle real-world scenarios that mirror actual cybersecurity 
+                challenges faced by organizations and enterprises worldwide.
               </p>
               
               <Button 
@@ -91,7 +91,7 @@ const About = () => {
           {/* Highlights Grid */}
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {highlights.map((highlight, index) => (
-              <div key={index} className="card-cyber p-6 rounded-xl text-center group hover:scale-105 transition-transform duration-300">
+              <div key={index} className="card-cyber p-6 rounded-xl text-center group hover:scale-[1.02] transition-transform duration-200">
                 <highlight.icon className="w-12 h-12 text-primary mx-auto mb-4 group-hover:animate-pulse" />
                 <h4 className="font-orbitron font-semibold text-primary mb-3">
                   {highlight.title}

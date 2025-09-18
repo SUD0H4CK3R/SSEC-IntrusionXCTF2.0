@@ -29,14 +29,14 @@ const Hero = () => {
           
           {/* Subtitle */}
           <p className="text-xl sm:text-2xl lg:text-3xl text-accent font-semibold mb-4">
-            INTER COLLEGE CYBERSECURITY CHAMPIONSHIP
+            PREMIER CYBERSECURITY COMPETITION
           </p>
           
           {/* Description */}
           <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto mb-12 leading-relaxed">
-            Join South India's most prestigious inter-college CTF competition. 
-            Test your skills, compete with the best, and claim your place among 
-            cybersecurity champions.
+            Join an elite cybersecurity competition designed to challenge and showcase 
+            the skills of tomorrow's security professionals. Test your expertise, 
+            compete with the best, and advance your career in cybersecurity.
           </p>
           
           {/* Event Details Grid */}

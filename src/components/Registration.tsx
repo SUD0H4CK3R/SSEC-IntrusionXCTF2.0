@@ -13,8 +13,8 @@ const Registration = () => {
               Ready to <span className="text-primary">Compete?</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Don't miss the most prestigious inter-college CTF of 2025. 
-              Register your team today and secure your spot in cybersecurity history!
+              Secure your place in this premier cybersecurity competition. 
+              Register your team today and join the elite community of security professionals!
             </p>
           </div>
 
@@ -24,7 +24,7 @@ const Registration = () => {
               <Users className="w-10 h-10 text-primary mx-auto mb-4" />
               <h3 className="font-orbitron font-semibold text-primary mb-2">Team Size</h3>
               <p className="text-sm text-muted-foreground">2-4 members per team</p>
-              <p className="text-xs text-muted-foreground mt-1">All from same college</p>
+              <p className="text-xs text-muted-foreground mt-1">Professional collaboration</p>
             </div>
             
             <div className="card-cyber p-6 rounded-xl">

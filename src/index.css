@@ -42,15 +42,15 @@
 
     --radius: 0.75rem;
 
-    /* Custom cyber gradients */
-    --gradient-cyber: linear-gradient(135deg, hsl(120 100% 40%), hsl(180 100% 40%));
+    /* Custom cyber gradients - more subtle */
+    --gradient-cyber: linear-gradient(135deg, hsl(120 80% 35%), hsl(180 80% 35%));
     --gradient-dark: linear-gradient(135deg, hsl(220 27% 4%), hsl(220 25% 8%));
-    --gradient-glow: linear-gradient(135deg, hsl(120 100% 50% / 0.1), hsl(180 100% 50% / 0.1));
+    --gradient-glow: linear-gradient(135deg, hsl(120 80% 40% / 0.08), hsl(180 80% 40% / 0.08));
 
-    /* Cyber shadows */
-    --shadow-cyber: 0 0 20px hsl(120 100% 50% / 0.3);
-    --shadow-glow: 0 0 40px hsl(120 100% 50% / 0.2);
-    --shadow-intense: 0 0 60px hsl(120 100% 50% / 0.4);
+    /* Cyber shadows - reduced intensity */
+    --shadow-cyber: 0 0 15px hsl(120 80% 40% / 0.2);
+    --shadow-glow: 0 0 25px hsl(120 80% 40% / 0.15);
+    --shadow-intense: 0 0 35px hsl(120 80% 40% / 0.25);
 
     /* Animation variables */
     --transition-cyber: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -127,25 +127,25 @@
 }
 
 @layer components {
-  /* Cyber button variants */
+  /* Cyber button variants - more professional */
   .btn-cyber {
     @apply bg-primary text-primary-foreground hover:bg-primary/90 
-           shadow-[var(--shadow-cyber)] border border-primary/30
-           transition-all duration-300 hover:shadow-[var(--shadow-intense)]
-           hover:scale-105 font-semibold;
+           shadow-[var(--shadow-glow)] border border-primary/20
+           transition-all duration-200 hover:shadow-[var(--shadow-cyber)]
+           hover:scale-[1.02] font-semibold;
   }
 
   .btn-ghost-cyber {
-    @apply bg-transparent text-primary border border-primary/50 
-           hover:bg-primary/10 hover:border-primary
-           shadow-[var(--shadow-glow)] transition-all duration-300;
+    @apply bg-transparent text-primary border border-primary/40 
+           hover:bg-primary/5 hover:border-primary/60
+           shadow-[var(--shadow-glow)] transition-all duration-200;
   }
 
-  /* Cyber card effects */
+  /* Cyber card effects - more subtle */
   .card-cyber {
-    @apply bg-card border border-primary/20 shadow-[var(--shadow-glow)]
-           hover:border-primary/40 hover:shadow-[var(--shadow-cyber)]
-           transition-all duration-300;
+    @apply bg-card border border-primary/15 shadow-[var(--shadow-glow)]
+           hover:border-primary/25 hover:shadow-[var(--shadow-cyber)]
+           transition-all duration-200;
   }
 
   /* Glitch text effect */
@@ -235,12 +235,12 @@
   }
 
   @keyframes cyber-pulse {
-    0%, 100% { box-shadow: 0 0 5px hsl(120 100% 50% / 0.5); }
-    50% { box-shadow: 0 0 20px hsl(120 100% 50% / 0.8), 0 0 30px hsl(120 100% 50% / 0.6); }
+    0%, 100% { box-shadow: 0 0 5px hsl(120 80% 40% / 0.3); }
+    50% { box-shadow: 0 0 15px hsl(120 80% 40% / 0.5), 0 0 25px hsl(120 80% 40% / 0.3); }
   }
 
   .animate-cyber-pulse {
-    animation: cyber-pulse 2s ease-in-out infinite;
+    animation: cyber-pulse 3s ease-in-out infinite;
   }
 
   .animate-matrix-float {

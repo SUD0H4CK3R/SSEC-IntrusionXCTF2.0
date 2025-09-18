@@ -41,8 +41,8 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed mb-4">
-              South India's premier inter-college cybersecurity championship. 
-              Join us in shaping the future of cybersecurity.
+              A premier cybersecurity competition bringing together security professionals, 
+              students, and enthusiasts to advance the field of cybersecurity.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social, index) => (

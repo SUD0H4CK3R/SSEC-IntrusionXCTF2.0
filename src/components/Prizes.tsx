@@ -75,8 +75,8 @@ const Prizes = () => {
               Prizes & <span className="text-primary">Recognition</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Compete for prestigious prizes, certificates, and career opportunities. 
-              Your cybersecurity skills deserve recognition!
+              Compete for prestigious awards, professional recognition, and career advancement 
+              opportunities. Your cybersecurity expertise deserves recognition!
             </p>
           </div>
 
@@ -85,7 +85,7 @@ const Prizes = () => {
             {prizes.map((prize, index) => (
               <div 
                 key={index} 
-                className={`card-cyber p-8 rounded-2xl text-center group hover:scale-105 transition-all duration-300 ${prize.bgColor}`}
+                className={`card-cyber p-8 rounded-2xl text-center group hover:scale-[1.02] transition-all duration-200 ${prize.bgColor}`}
               >
                 <div className="mb-6">
                   <prize.icon className={`w-16 h-16 mx-auto mb-4 ${prize.color} group-hover:animate-pulse`} />
@@ -159,7 +159,7 @@ const Prizes = () => {
             </h3>
             <div className="grid sm:grid-cols-3 gap-6">
               {specialPrizes.map((special, index) => (
-                <div key={index} className="card-cyber p-6 rounded-xl text-center hover:scale-105 transition-transform duration-300">
+                <div key={index} className="card-cyber p-6 rounded-xl text-center hover:scale-[1.02] transition-transform duration-200">
                   <Award className="w-10 h-10 text-accent mx-auto mb-4" />
                   <h4 className="font-orbitron font-semibold text-accent mb-3">
                     {special.title}

@@ -20,10 +20,10 @@ const Rules = () => {
   ];
 
   const importantNotes = [
-    "All team members must be from the same college",
-    "Valid college ID required for registration",
-    "Decisions by organizers are final",
-    "Winners will be announced immediately after competition"
+    "All participants must provide valid identification",
+    "Professional conduct expected at all times",
+    "Decisions by organizers and judges are final",
+    "Winners will be announced immediately after evaluation"
   ];
 
   return (
