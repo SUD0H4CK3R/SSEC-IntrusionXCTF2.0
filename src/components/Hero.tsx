@@ -18,10 +18,7 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-5xl mx-auto">
           {/* Main Title */}
-          <h1 
-            className="text-4xl sm:text-6xl lg:text-8xl font-bold font-orbitron mb-6 text-glitch"
-            data-text="SSEC CTF 2025"
-          >
+          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold font-orbitron mb-6">
             <span className="bg-gradient-cyber bg-clip-text text-transparent">
               SSEC CTF 2025
             </span>
@@ -73,14 +70,14 @@ const Hero = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
-              className="btn-cyber text-lg px-8 py-6 rounded-xl"
+              className="btn-cyber px-8 py-3 rounded-lg"
               onClick={() => window.open('https://forms.gle/SzwEoutq1D6ktTyb9', '_blank')}
             >
               Register Your Team
             </Button>
             <Button 
               variant="outline" 
-              className="btn-ghost-cyber text-lg px-8 py-6 rounded-xl"
+              className="btn-ghost-cyber px-8 py-3 rounded-lg"
               onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Learn More
@@ -90,9 +87,9 @@ const Hero = () => {
       </div>
       
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-primary rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-primary rounded-full mt-2 animate-pulse" />
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+        <div className="w-6 h-10 border border-primary/50 rounded-full flex justify-center">
+          <div className="w-1 h-3 bg-primary/70 rounded-full mt-2" />
         </div>
       </div>
     </section>
